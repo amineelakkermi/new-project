@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+
+}
+
+
+:root{
+  --orange: rgb(255, 174, 140);
+  --green: rgb(92, 209, 137);
+  --orange: #ff9900;
+  --blue: #3490dc;
+  --mauve: #8a63d2;
+  --green: #38c172;
+}
+
+
+
+
+body{
+  background-color: hsl(230, 29%, 6%);
+}
+
+img{
+  object-fit: cover;
+}
+
+.circle {
+  width: 250px;  
+  height: 200px;
+  background-color: white;
+  filter: blur(200px); 
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  
+}
+
+.circle1 {
+  width: 60%; 
+  height: 400px;
+  background-color: rgb(81, 73, 188);
+  filter: blur(200px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20%;
+  z-index: 1;
+ 
+}
+
+.circle2 {
+  width: 80%; 
+  height: 200px;
+  background-color: rgb(148, 14, 232);
+  filter: blur(200px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30%; 
+}
+
+.circle3 {
+  height: 600px;
+  background-color: rgb(207, 8, 101);
+  filter: blur(700px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 400px; /* Need a specific value to work */
+}
+
+.circle4 {
+  height: 400px;
+  background: linear-gradient(to right , rgb(5, 98, 152) , rgb(8, 110, 69));
+  filter: blur(250px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 400px; /* Need a specific value to work */
+}
+
+
+.circle5 {
+  background: rgb(26, 26, 147);
+  filter: blur(250px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 1000px;
+  height: 400px;
+}
+
+
+.circle5 {
+  background: rgb(26, 26, 147);
+  filter: blur(250px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 600px;
+  height: 400px;
+}
+
+
+
+.circle6 {
+  background: linear-gradient(to right , rgb(166, 8, 135) , rgb(8, 40, 110));
+  filter: blur(140px); 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 800px; /* Need a specific value to work */
+  height: 200px;
+
+}
+
+
+
+
+
+
+.start-button{
+  background: #5E45FF;
+  margin: 0 2rem;
+}
+
+
+.start-button2{
+  background: #5E45FF;
+  margin-top: 2rem;
+}
+
+
+
+.subscribe-button{
+  background: #5E45FF;
+  margin: 0;
+}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.div{
+  width: 100px; 
+  height: 100px;
+  background: linear-gradient(90deg, rgba(228, 228, 223, 1) 0%, rgba(228, 214, 228, 1) 100%);
+  border-radius: 50%;
+
+}
+
+
+
+
+.image-with-shadow {
+  box-shadow: 0 4px 8px rgba(56, 41, 153, 0.5),
+              0 -4px 8px rgba(56, 41, 153, 0.5),
+              4px 0 8px rgba(56, 41, 153, 0.5),
+              -4px 0 8px rgba(56, 41, 153, 0.5);
+  border-radius: 8px;
+}
+
+.input-container{
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+
+.input{
+  border-radius: 25px;
+}
+
+
+input::placeholder {
+  color: grey; 
+  font-size: 14px; 
+  font-weight: 500; 
+  opacity: 1; 
+}
+
+
+
+
+.border-mauve{
+  border: 1px solid rgb(56, 41, 153);
+}
+
+.border-green{
+  border: 0.4px solid rgb(73, 255, 190);
+  transition: 0.1s ease-in-out;
+}
+
+.border-green:hover{
+  border: 0.5px solid rgb(73, 255, 190);
+}
+
+.gradient-color{
+  background: linear-gradient( to right , rgb(255, 174, 140) , #E31283 , #8A0B50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0px;
+}
+
+.gradient1-color{
+  background: linear-gradient( to right , rgb(189, 255, 232) , rgb(73, 255, 190) , rgb(15, 173, 231));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0px;
+}
+
+.card{
+  transition: 0.4s ease-in-out;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px rgba(56, 41, 153, 0.5),
+              0 -4px 8px rgba(56, 41, 153, 0.5),
+              4px 0 8px rgba(56, 41, 153, 0.5),
+              -4px 0 8px rgba(56, 41, 153, 0.5);
+}
